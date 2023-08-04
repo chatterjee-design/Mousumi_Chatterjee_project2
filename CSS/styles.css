@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    margin: 0 35px;
+}
+
+
+/* --------------------------button ------------------------*/
+.btn{
+    background-color: #5955b3;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+}
+.small-btn{
+    padding: 7px 17px;
+}
+.big-btn{
+    padding: 12px 20px;
+    margin-top: 21px;
+}
+/* --------------------------navigation ------------------------*/
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    height: 45px !important;
+}
+.navbar{
+    display: flex;
+    gap: 3rem;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+/* --------------------------hero section ------------------------*/
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-container-left h1{
+    font-size: 4rem;
+    color: #3c2f60;
+}
+.hero-container-left h1 span{
+    color: #5955b3;
+}
+.hero-container-left p{
+    color: #828282;
+}
+.hero-container-right{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.hero-container-right img{
+    width: 100%;
+}
